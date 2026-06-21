@@ -82,6 +82,4 @@ public class Array{
         int numbers[] = {1,2,6,3,5};
         System.out.println("Largest number :"+ getlargest(numbers));
     }
-    
-
 }
