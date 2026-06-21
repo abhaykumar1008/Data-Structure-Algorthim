@@ -65,7 +65,6 @@ public class Array{
     public static int getlargest(int numbers[]){
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
-
         for(int i=0; i<numbers.length; i++){
             if(largest< numbers[i]){
                 largest = numbers[i];
@@ -77,7 +76,6 @@ public class Array{
         System.out.println("Smallest number :"+ smallest);
         return largest;
     }
-
     public static void main(String arg[]){
         int numbers[] = {1,2,6,3,5};
         System.out.println("Largest number :"+ getlargest(numbers));
