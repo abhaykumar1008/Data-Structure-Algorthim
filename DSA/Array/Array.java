@@ -1,4 +1,4 @@
-// package java;
+package Array;
 public class Array{
     //public static void main (String [] arr){
         //int marks[] = new int[50];
@@ -25,7 +25,7 @@ public class Array{
         /* length of array
         //System.out.println("Length of array :"+ marks.length);
     }*/
-    /*public static void update(int marks[]){
+    public static void update(int marks[]){
         for(int i=0;i<marks.length;i++){
             marks[i] = marks[i]+1;
         }
@@ -37,10 +37,7 @@ public class Array{
             System.out.println(marks[i]+" ");
         }
         System.out.println();
-    }*/
-
-
-
+    }
     // LINEAR SEARCH 
     /*public static int linearSearch(int numbers[],int key){
         for(int i=0; i<numbers.length; i++){
@@ -65,10 +62,9 @@ public class Array{
 
 
     // LARGEST NUMBER
-    public static int getlargest(int numbers[]){
+    /*public static int getlargest(int numbers[]){
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
-
         for(int i=0; i<numbers.length; i++){
             if(largest< numbers[i]){
                 largest = numbers[i];
@@ -80,10 +76,8 @@ public class Array{
         System.out.println("Smallest number :"+ smallest);
         return largest;
     }
-
-    public static void main(String arg[]){
+    public static void main (String arg[]){
         int numbers[] = {1,2,6,3,5};
         System.out.println("Largest number :"+ getlargest(numbers));
-    }
-
+    }*/
 }
