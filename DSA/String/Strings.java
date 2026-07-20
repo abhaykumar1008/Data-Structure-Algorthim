@@ -17,6 +17,6 @@ public class Strings{
         String str1 = "Abhay";
         String str2 = "Kumar";
         String str3 = str1 + " "+ str2;
-        System.out.println(str3);
+        System.out.println(str3.charAt(0));
     }
 }
