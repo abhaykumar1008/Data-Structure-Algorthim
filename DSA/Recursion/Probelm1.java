@@ -1,4 +1,4 @@
-public class printNo{
+public class Problem1{
     public static void printDec(int n){
         if(n==1){
             System.out.println(n);
