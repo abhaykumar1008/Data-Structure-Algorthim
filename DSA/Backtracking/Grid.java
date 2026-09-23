@@ -1,13 +1,16 @@
 public class Grid{
     public static int gridWays(int i, int j, int n, int m){
+        // base case
         if(i==n-1 && j==m-1){
             return 1;
         }
         else if(i==n || j==m){
             return 0;
         }
-        int w1 = gridWays(i+1,j,n,m);
-        int w2 = gridWays(i,j+1,n,m);
+        // recursion 
+        int w1 = gridWays(i+1,j,n,m); // it is for right side of the grid
+        int w2 = gridWays(i,j+1,n,m); // it is for down side of the grid 
+    
 
         return w1+w2;
 
