@@ -23,7 +23,7 @@ public class storeWater{
         height.add(2);
         height.add(5);
         height.add(4);
-        height.add(8);
+        height.add(8); 
         height.add(3);
         height.add(7);
 
