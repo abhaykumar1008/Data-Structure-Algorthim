@@ -32,11 +32,29 @@ public class LinkendList{
         tail.next = newNode;
         tail = newNode;
     }
+
+    public void print(){
+        if(head == null){
+            System.out.println("LinkedList is empty");
+            return;
+        }
+        Node current = head;
+        while(current != null){
+            System.out.print(current.data + " ");
+            current = current.next;
+        }
+        System.out.println();
+    }
     public static void main(String arg[]){
         LinkendList ll = new LinkendList();
+        ll.print();
         ll.addFirst(2);
+        ll.print();
         ll.addFirst(1);
+        ll.print();
         ll.addLast(3);
+        ll.print();
         ll.addLast(4);
+        ll.print();
     }
 }
